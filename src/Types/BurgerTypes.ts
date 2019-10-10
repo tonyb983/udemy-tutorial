@@ -1,7 +1,8 @@
-export type IngredientID = 'bread-top' | 'bread-bottom' | 'meat' | 'bacon' | 'lettuce' | 'cheese';
+export type VariableIngredients = 'meat' | 'bacon' | 'lettuce' | 'cheese'
+export type AllIngredients = 'bread-top' | 'bread-bottom' | VariableIngredients;
 
 export interface Ingredient {
-    ID: IngredientID;
+    ID: AllIngredients;
     Display: string;
     Price: number;
 }
