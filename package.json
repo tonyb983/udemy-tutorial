@@ -19,7 +19,7 @@
     "date-fns": "^2.4.1",
     "easy-peasy": "^3.1.0",
     "faker": "^4.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mobx": "^5.14.0",
     "mobx-react-lite": "^1.4.1",
     "mobx-state-tree": "^3.14.1",
